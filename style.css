@@ -1,5 +1,11 @@
 /*https://codepen.io/rafaelcastrocouto/pen/BNdOab - The css title is credited by Rafael Castrocouto */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font: "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.5);
@@ -13,7 +19,7 @@ body {
 .coolTitle {
   text-align: center;
   font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 3.5rem;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
