@@ -3,12 +3,12 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 body {
-  height: 100vh;
-  width: 100%;
   font: "Raleway", sans-serif;
+  padding: 2rem;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: uppercase;
@@ -20,22 +20,19 @@ body {
 .coolTitle {
   text-align: center;
   font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
-  margin-top: 5rem;
-  padding: 1rem;
+  margin-top: 2.5rem;
   color: tomato;
   text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
     -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
     -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey;
-
-  @media only screen and (max-width: 600px) {
-    font-size: 2rem;
-  }
+  overflow: hidden;
 }
+
 .done {
   text-decoration: line-through;
 }
@@ -45,19 +42,14 @@ h1 {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.4em;
   width: 100%;
-
-  @media only screen and (max-width: 600px) {
-    font-size: 1.5rem;
-  }
+  margin: 1rem;
 }
 
 h2 {
-  font: 600 2.5rem "Raleway", sans-serif;
-  @media only screen and (max-width: 600px) {
-    font-size: 1rem;
-  }
+  font: 600 2rem "Raleway", sans-serif;
+  margin-top: 0.5rem;
 }
 
 h3 {
@@ -65,5 +57,31 @@ h3 {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: none;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
+}
+
+#userinput {
+  margin: 0.3rem;
+}
+
+button {
+  margin: 0.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .coolTitle {
+    font-size: 2.7rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
 }
