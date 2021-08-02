@@ -68,6 +68,10 @@ button {
   margin: 0.1rem;
 }
 
+ul {
+  margin: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .coolTitle {
     font-size: 2.7rem;
