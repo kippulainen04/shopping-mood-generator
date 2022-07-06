@@ -43,7 +43,7 @@ After fulfilling the project, I acquire knowledge to:
 
 ## 📋 Requirements
 
-**Build an app that operate as a shopping list with a theme color generator
+**Build an app that operate as a shopping list with a theme color generator**
 
 **User Stories:** 
 1. Adding new element to the list
