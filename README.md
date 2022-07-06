@@ -11,7 +11,7 @@
 
 ## 🚀 Overview
 
-This is my very first Javascrip page in my coding journey to create a simple shopping list by implementing DOM Manipulation. 
+This is my very first Javascript page in my coding journey to create a simple shopping list by implementing DOM Manipulation.
 
 Shopping list page is created with **[HyperText Markup Language](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)), [Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS) and [Javascript](https://en.wikipedia.org/wiki/JavaScript)** 
 
@@ -30,7 +30,7 @@ The following content will be covered in this README.md:
 
 ## 🧑‍💻 Learning Objectives
 
-After fulfilling the project, I accquire knowledge to:
+After fulfilling the project, I acquire knowledge to:
 * Build and style static webpages with semantic **HTML** and **CSS**, along with **Javascript**
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
 * Implement **DOM Manipulation** and **linear-gradient() syntax** to present the content of the project
