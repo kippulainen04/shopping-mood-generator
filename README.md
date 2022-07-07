@@ -58,7 +58,7 @@ After fulfilling the project, I acquire knowledge to:
 
 ## ⚡ Installation & Usage
 
-1. Cloning the project & render on your local browser
+1. Cloning the project & rendering on your local browser
 * The respository can be [cloned](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) as other github repository 
 * Then drag the `index.html` to your local browser
 
